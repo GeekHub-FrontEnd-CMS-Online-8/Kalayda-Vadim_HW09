@@ -1,0 +1,7 @@
+.top-section {
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	min-height: 750px;
+	background: linear-gradient(to right, rgba(72, 85, 99, .7) 0%, rgba(41, 50, 60, .7) 100%), url('../img/home-bg.png') center / cover no-repeat;
+} 

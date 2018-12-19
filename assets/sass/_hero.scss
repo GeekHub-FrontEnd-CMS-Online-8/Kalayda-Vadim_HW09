@@ -1,0 +1,67 @@
+$gray: #e8e8e8;
+
+.hero {
+	width: 50%;
+	height: 666px;
+	margin-left: 25%;
+	&__container {
+	}
+	&__headline {
+		display: flex;
+		justify-content: center;
+		color: $gray;
+		padding-top: 17%;
+		letter-spacing: -1.8px;
+		line-height: 40px;
+	} 
+	&__text {
+		color: $gray;
+		padding-top: 0;
+		text-align: center;
+		font-weight: 300;
+		font-size: 17px;
+		letter-spacing: -0.42px;
+		line-height: 25px;
+	}
+	&__btn {
+		display: flex;
+		justify-content: center;
+		margin-left: 43.3%;
+		margin-top: 3%;
+		color: #fff;
+		font-size: 13px;
+		font-weight: bold;
+		width: 126px;
+		height: 40px;
+		background: transparent;
+		border: 1px solid #f2f2f2;
+		border-radius: 30px;
+		cursor: pointer;
+		transition: 0.3s;
+		&:hover {
+			background: rgba(0, 0, 0, 0.3);
+		}
+		&:active {
+			width: 128px;
+			height: 41px;
+		}
+	}
+	&__btn-down {
+		margin-left: 47.5%;
+		margin-top: 13%;
+		width: 50px;
+		height: 50px;
+		background: transparent;
+		border: 1px solid #f2f2f2;
+		border-radius: 50px;
+		cursor: pointer;
+		transition: 0.3s;
+		&:hover {
+			background: rgba(0, 0, 0, 0.3);
+		}
+		&:active {
+			width: 51px;
+			height: 51px;
+		}
+	}
+}
