@@ -1,0 +1,88 @@
+.slider {
+  position: relative;
+  width: 600px;
+  margin: 50px auto;
+}
+
+.slider {
+  input[name="switch"] {
+  display: none;
+  }
+} 
+
+.switch {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+
+.switch {
+  label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  border: 5px solid #2f363c;
+  background-color: #738290;
+}
+}
+
+#btn1:checked~.switch label[for="btn1"] {
+  background-color: white;
+}
+
+#btn2:checked~.switch label[for="btn2"] {
+  background-color: white;
+}
+
+#btn3:checked~.switch label[for="btn3"] {
+  background-color: white;
+}
+
+.slider-inner {
+  overflow: hidden;
+}
+
+.slides {
+  width: 300%;
+  transition: all 0.5s;
+}
+
+.slides {
+  .slide {
+    width: 600px;
+    height: 340px;
+    float: left;
+    img {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+    &__dot {
+      margin-top: 0%;
+      margin-left: 48%;
+    }
+    &__vasya {
+      margin-top: 5%;
+      margin-left: 34.8%;
+    }
+  }
+}
+
+#btn1:checked~slider-inner slides {
+  margin-left: 0;
+}
+
+#btn2:checked~.slider-inner .slides {
+  margin-left: -600px;
+}
+
+#btn3:checked~.slider-inner .slides {
+  margin-left: -1200px;
+}

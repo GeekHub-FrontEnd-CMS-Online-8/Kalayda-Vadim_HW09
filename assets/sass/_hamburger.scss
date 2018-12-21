@@ -10,7 +10,7 @@ $textDelayStep: 0.1s;
 
 $font: Helvetica, Arial, sans-serif;
 
-$btnSize: 40px;
+$btnSize: 35px;
 $lineW: 28px;
 $lineH: 4px;
 $linesGap: 10px;
@@ -19,9 +19,9 @@ $btnHorPad: ($btnSize - $lineW) / 2;
 $btnVertPad: ($btnSize - $linesTotalH) / 2;
 
 
-$itemsLeftPad: 20px;
+$itemsLeftPad: 5px;
 $itemsRightPad: $itemsLeftPad + $btnSize;
-$itemWidth: 70px;
+$itemWidth: 58px;
 $navItemsWidth: $itemsLeftPad + $itemsRightPad + $itemWidth * $numOfItems;
 $textAT: $navAT - $textDelayStep * ($numOfItems - 1);
 
@@ -33,7 +33,7 @@ $textCub: cubic-bezier(.48,.43,.7,2.5);
 .nav {
   overflow: hidden;
   position: relative;
-  left: 52%;
+  left: 33%;
   top: 9px;
   width: auto;
   height: $btnSize;
@@ -87,6 +87,14 @@ $textCub: cubic-bezier(.48,.43,.7,2.5);
     perspective: 1000px;
     transition: color 0.3s;
     cursor: pointer;
+
+    a {
+      color: #474747;
+    }
+
+    a:hover {
+      color: $darkBlue;
+    }
 
     &:hover {
       color: $darkBlue;

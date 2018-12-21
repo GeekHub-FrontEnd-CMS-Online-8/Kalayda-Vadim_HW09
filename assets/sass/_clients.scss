@@ -1,0 +1,31 @@
+.clients {
+	width: 100%;
+	height: 150px;
+	background: #F4F4F4;
+	&__container {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		align-items: center;
+	}
+	.clients-photo {
+		margin-top: 45px;
+		margin-left: 36px;
+		margin-right: 36px;
+	}
+}
+
+@media (min-width: 580px)and(max-width: 1030px) {
+	.clients {
+		&__container {
+			display: grid;
+			grid-template-rows: 70px 50px;
+    	grid-template-columns: 230px 230px 180px;
+			justify-content: center;
+			align-items: center;
+		}
+		.clients-photo {
+			margin-top: 25px;
+		}
+	}
+}

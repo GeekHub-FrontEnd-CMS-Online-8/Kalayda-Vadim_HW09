@@ -1,1 +1,1 @@
-Kalayda Vadim HW09 5-10%
+Kalayda Vadim HW09 85-90% Block "WORKS" - not ready
